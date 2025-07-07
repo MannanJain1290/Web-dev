@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* border: 10px solid #d9a7c7; */
+    background: #ee9ca7;
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: #FAF9F6;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height:30%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* padding: 20px; */
+    width: 85%;
+    text-align: center;
+}
+
+#amount{
+    width: 80%;
+    height: 10%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.left{
+    width: fit-content;
+    display: flex;
+    gap:15px;
+}
+
+#payment{
+    color: white;
+    width: 80%;
+    height: 9%;
+    background-color: rgb(4, 4, 59);
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.cancel a{
+    text-decoration: none;
+    color:rgb(46, 45, 45);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.left #leftimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    margin-left: 5px;
+
+}
